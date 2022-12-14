@@ -73,10 +73,24 @@ class MyApp extends StatelessWidget {
                         overflow: TextOverflow.ellipsis,
                         "카메라 팝니다.카메라 팝니다.카메라 팝니다.카메라 팝니다.카메라 팝니다.카메라 팝니다.",
                         style: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.bold),
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                      const Text("금호동 3가"),
-                      const Text("7000원"),
+                      const Text(
+                        "금호동 3가",
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Color.fromARGB(255, 96, 96, 96),
+                        ),
+                      ),
+                      const Text(
+                        "210,000원",
+                        style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: const [
